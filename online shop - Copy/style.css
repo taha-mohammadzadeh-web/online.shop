@@ -1,0 +1,85 @@
+body {
+  overflow-x: hidden;
+  /* font-family: "Great Vibes", cursive; */
+  font-family: "Manufacturing Consent", system-ui;
+  background-color: black;
+  color: rgba(255, 253, 253, 0.992);
+}
+
+.sec1 {
+  background-image: url(img/28c495337312028d7f6bd7fa716efc7c.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.fil {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(7, 7, 7, 0.666);
+  padding: 300px 0 0 40px;
+  > h1 {
+    /* font-family: "Great Vibes", cursive; */
+    font-size: 60px;
+  }
+}
+.sec2 {
+  > h3 {
+    /* font-family: "Great Vibes", cursive; */
+    font-size: 45px;
+  }
+  > div {
+    > div {
+      > img {
+        width: 200px;
+        height: 250px;
+        border-radius: 6px;
+      }
+    }
+  }
+}
+.sec3 {
+  margin-top: 60px;
+  > div {
+    > video {
+      height: 100vh;
+      position: relative;
+    }
+  }
+}
+.sec4 {
+  margin-top: 100px;
+  > div {
+    > div {
+      width: 300px;
+      height: 400px;
+      background-color: rgba(255, 254, 254, 0.749);
+      padding: 0;
+      border-radius: 5px;
+      padding: 10px;
+      color: black;
+      > img {
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+    }
+  }
+}
+.sec5 {
+  margin-top: 50px;
+  > h2 {
+    font-size: 30px;
+  }
+}
+footer {
+  margin-top: 70px;
+  background-color: rgba(162, 168, 168, 0.61);
+  width: 100%;
+  height: 150px;
+
+  .h2 {
+    font-size: 60px;
+  }
+}
